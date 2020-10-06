@@ -81,6 +81,7 @@
 }
 .college{
     height: 25rem;
+
 }
 .strayerDeg{
     text-align: right;
@@ -96,14 +97,74 @@
   height: 6rem;
 }
 .testSec{
+  position: relative;
   background-color: black;
   color: white;
   padding: 5rem;
+
 }
 .onlineCourses{
   background-image: linear-gradient(to bottom right, rgb(3,203,226), black );
   color: white;
-  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   padding-bottom: 2rem;
+ 
+  
 
+}
+.udemy{
+  margin-top: -2rem;
+
+}
+.skillsOdd{
+  text-align: center;
+color: lightblue;
+background-image: linear-gradient(to bottom ,black , navy );
+border-radius: 5%;
+
+}
+
+.skillsEven{
+  text-align: center;
+  color: black;
+  background-image: linear-gradient(to top , lightblue, white);
+  border-radius: 5%;
+
+}
+
+
+.Stcollege{
+  width: 100%;
+}
+.vcuSec{
+  position: relative;
+  background-color: rgb(252,185,19);
+  z-index: -1;
+  
+}
+.exHeading{
+  text-align: center;
+  text-decoration: underline;
+ 
+}
+.freelance{
+  background-image: linear-gradient( to left, white, lightblue);
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+#vcu{
+  z-index: -1;
+}
+.skills{
+  background-color: lightskyblue;
+  position: relative;
+  margin-top: -2rem;
+  z-index: -1;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+.Kurb{
+  background-color: rgb(41,40,42);
+  color:rgb(206,230,190);
 }
