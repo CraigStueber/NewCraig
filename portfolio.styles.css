@@ -55,18 +55,69 @@
       left: 0;
       cursor: pointer;
   }
-  #button{
+  .button{
     border: none;
     background-color: transparent;
     width: 10vw;
   }
-  #button:hover{
+  .button:hover{
     background-color: black;
     color: white;
   }
   body{
     background-color:#f2f2f5;
   }
+  img{
+    max-width: 100%;
+  }
+  .imgTK{
+    position: relative;
+   
+    margin-left: -4rem;
+    height: 20rem;
+   margin-top: 2rem;
+    
+  }
+  .rightDivTK{
+    background-color: transparent;
+    border-left:white solid 2px;
+    border-top: white solid 2px;
+    
+  }
+  .textTK{
+    position: relative;
+  
+    color: white;
+    margin-top: 15rem;
+    margin-left: 3rem;
+    margin-right: 5rem;
+  }
+  .leftDivTK{
+    background-color: transparent;
+    border-top: white solid 2px;
+  }
+.testDivTK{
+  background-color: black;
+  padding: 3rem;
+  margin-left: -6rem;
+  margin-top: 1rem;
 
+  margin-bottom: 3rem;
+  color: white;
+}
+.TuesKnights{
+  background-image: radial-gradient(at bottom left, lightgrey, black);
+  padding: 2rem;
+}
+.textTestTK{
+  text-align: center;
+ 
+  
+}
+.freeBTN{
+  background-color: rgba(196, 184, 183, .7);
+  width: 45%;
+  border-radius: 10%;;
+}
 
 
