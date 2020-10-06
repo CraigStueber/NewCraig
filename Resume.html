@@ -6,7 +6,7 @@
             <link rel="stylesheet" href="Resume.styles.css" >
             <script src="home.js"></script>
         </head>
-        <body>
+        <body id="body">
             <div id="mySidenav" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <a href="home.html">Home</a>
@@ -18,7 +18,7 @@
               </div>
             <div class="container">
                 <span class="menu" onclick="openNav()">&#9776; Menu  </span>
-                <div>
+                <div class="text-center">
                     <h1>Craig's</h1>
                     <h1>Education & Experience</h1>
                 </div>
@@ -29,35 +29,46 @@
                     <div>
                         <h2 class="exHeading">Contract</h2>
                         <div class="contract Kurb">
+                            <div class="contractHeading">
+                                <h2>Kurb Media</h2>
+                                <h4>Front-End Software Engineer</h4>
+                            </div>  
                             <div class="row">
                             <div class="col-md-6">
-                                <h3>Kurb Media</h3>
-                                <h4>Front-End Software Engineer</h4>
                                 <h5>Languages</h5>
-                                <p>React.js   Next.js  HTML5 CSS JavaScript PHP Liquid</p>
+                                <p>React.js |  Next.js | HTML5 | CSS | JavaScript | PHP | Liquid</p>
+                                <h5>Platforms</h5>
+                                <p>WordPress | Shopify | GitHub | Slack</p>
                             </div>
                             <div class="col-md-6">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in ante eget eros ultrices dictum eget in ipsum. In hac habitasse platea dictumst.</p>
-                                <h5>Platforms</h5>
-                                <p>WordPress Shopify</p>
+                               
                             </div>
                         </div>
                     </div>
-                        <div class="row contract">
-                           
-                            <div class="col-md-6">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in ante eget eros ultrices dictum eget in ipsum. In hac habitasse platea dictumst.</p>
-                        </div>
-                        <div class="col-md-6">
-                            <h3>List Deed</h3>
+                    <div class="contract ListDeed">
+                        <div class="contractHeading">
+                            <h2>List Deed</h2>
                             <h4>Front-End Software Engineer & Web Designer</h4>
                         </div>
-                        </div>
-                    </div>
-                    <div class="freelance">
-                        <h2 class="exHeading" >Freelance</h2>
                         <div class="row">
-                        <div class="col-md-4">
+                            <div class="col-md-6">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in ante eget eros ultrices dictum eget in ipsum. In hac habitasse platea dictumst.</p>
+                        </div>
+                        <div class="col-md-6 LDLang">
+                            <h5>Languages</h5>
+                            <p>Vue.js |  Hapi | HTML5 | SCSS | mongoDB </p>
+                            <h5>Platforms</h5>
+                            <p>GitHub | Microsoft Teams | Clickup </p>
+                        </div>
+                        </div>
+                    </div></div>
+                    <div>
+                        <h2 class="exHeading" >Freelance</h2>
+                    <div>
+                        
+                        <div class="row">
+                        <div class="col-md-4 freelance">
                             <h3>Pocono Hybrid</h3>
                             <p>
                                 A small website of a local author in my home state of Virginia. He gave me a layout and I coded out his dream site. We now have an on going contract for me to keep his site up to date.
@@ -65,18 +76,19 @@
                             </p>
                             
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 freelance">
                             <h3>Blue Door Gallery</h3>
                             <p>
                                 An ecommerence website for a local artist. Should be going live by the end of Oct 2020.
                             </p>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 freelance">
                             <h3>Tuesday Knights</h3>
                             <p>
-                                A local D&D Club in Richmond VA wanted to have a website to show case their game and world they created. Multiple layouts were used as well as images. This site gets updated almost everyweek.
+                                A local D&D Club in Richmond VA. The website showcases the world they created. Currently a static site using HTML, being updated to React.js should be live by mid-November.
                             </p>
-                        </div>
+                        </div></div>
+                        <p class="text-center">Check out the Porfolio Page for more information.</p>
                     </div>
                     </div>
                 </section>
@@ -153,27 +165,27 @@
                                 </div>
                             </div>
                         </div>
-                    
-                </section></div>
+                    </div>
+                </section>
                 <section>
                     <h1 class="Header">Certifications</h1>
                     <div class="container">
                     <div class="row">
-                    <div class="col-md-6">
-                        <h3>OCA</h3>
+                    <div class="col-md-6 ">
+                        <h3 class="text-center">OCA</h3>
                         <p class="text-center">Java SE 8 Certification</p>
                         <img class="bec" src="assets/OCA.jpg" alt="OCA"/>
                         
                     </div>
                     <div class="col-md-6">
-                        <h3>PCEP</h3>
+                        <h3 class="text-center">PCEP</h3>
                         <p class="text-center">Certified Entry-Level Python Programmer</p>
                         
                         <img class="bec" src="assets/PCEP.png" alt="PCEP" />
                       
                     </div>
                 </div>
-                    <div class="testSec">
+                    <div class="testSec m-2">
                         
                         <img class="testLogo" src="assets/testout_logo.png">
                         <div class="row">
@@ -198,36 +210,48 @@
                     <h1 class="Header">Skills</h1>
                    <div class="container skills">
                     <div class="container">
-                    <div class="row">
-                    <div class="col-md-3 skillsOdd">
+                    <div class="row text-center">
+                    <div class=" col-md-6 col-lg-3 skillsOdd">
                         <h2>Front-end</h2>
-                        <h4>Html</h4>
-                        <h4>CSS</h4>
-                        <h4>JavaScript</h4>
-                        <h6>React.js</h6>
-                        <h6>BootStrap</h6>
-                        <h6>SCSS</h6>
-                        <h6>Media.UI</h6>
-                        <h6>Next.js</h6>
+                        <ul>
+                            <li>Html</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>React.js</li>
+                            <li>BootStrap</li>
+                            <li>SCSS</li>
+                            <li>Meterial-UI</li>
+                            <li>Next.js</li>
+                        </ul>
                     </div>
-                    <div class="col-md-3 skillsEven">
+                    <div class="col-md-6 col-lg-3 skillsEven">
                         <h2>Back-end</h2>
-                        <h4>Java</h4>
-                        <h4>Python</h4>
-                        <h4>PHP</h4>
+                        <ul>
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>PHP</li>
+                        </ul>
                     </div>
-                    <div class="col-md-3 skillsOdd">
-                        <h2>Platforms</h2>
-                        <h4>WordPress</h4>
-                        <h4>Shopify</h4>
+                    <div class="col-md-6 col-lg-3 skillsOdd">
+                        
+                            <h2>Platforms</h2>
+                        <ul>
+                            <li>WordPress</li>
+                            <li>Shopify</li>
+                            <li>Windows</li>
+                            <li>Linux</li>
+                        </ul>
+                        
                     </div>
-                    <div class="col-md-3 skillsEven">
+                    <div class="col-md-6 col-lg-3  skillsEven">
                         <h2>Design</h2>
-                        <h4>UI/UX Design</h4>
-                        <h4>Web Design</h4>
-                        <h4>Photoshop</h4>
-                        <h4>Webflow</h4>
-                        <h4>Illustrator</h4>
+                        <ul>
+                            <li>UI/UX Design</li>
+                            <li>Web Design</li>
+                            <li>Photoshop</li>
+                            <li>Webflow</li>
+                            <li>Illustrator</li>
+                        </ul>
                         
                     </div></div></div>
                 </div>

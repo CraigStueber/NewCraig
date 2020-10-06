@@ -47,7 +47,11 @@
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
-
+  .strSec{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: white;
+  }
  
   .menu{
       position: relative;
@@ -109,27 +113,36 @@
   padding-left: 2rem;
   padding-right: 2rem;
   padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  padding-top: -2rem;
  
   
 
 }
-.udemy{
-  margin-top: -2rem;
 
-}
 .skillsOdd{
+  padding: 3rem;
   text-align: center;
 color: lightblue;
 background-image: linear-gradient(to bottom ,black , navy );
-border-radius: 5%;
+
+outline: 2px solid lightblue;
+outline-offset: -.5rem;
+
 
 }
 
+
+
 .skillsEven{
+  padding: 3rem;
   text-align: center;
   color: black;
   background-image: linear-gradient(to top , lightblue, white);
-  border-radius: 5%;
+  
+  outline: 2px solid black;
+outline-offset: -.5rem;
 
 }
 
@@ -149,9 +162,11 @@ border-radius: 5%;
  
 }
 .freelance{
-  background-image: linear-gradient( to left, white, lightblue);
-  padding-left: 5rem;
-  padding-right: 5rem;
+  background-color: lightblue;
+  padding: 3rem;
+  border: black solid 2px;
+  border-radius: 1%;
+  text-align: center;
 }
 #vcu{
   z-index: -1;
@@ -159,12 +174,40 @@ border-radius: 5%;
 .skills{
   background-color: lightskyblue;
   position: relative;
-  margin-top: -2rem;
-  z-index: -1;
+ 
   padding-top: 3rem;
   padding-bottom: 2rem;
 }
 .Kurb{
-  background-color: rgb(41,40,42);
+  background-image: linear-gradient(to left , rgb(41,40,42),black); 
   color:rgb(206,230,190);
+  padding: 1rem;
+  outline: 2px solid rgb(206,230,190);
+  outline-offset: -.5rem;
+}
+ul{
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  
+}
+.contractHeading{
+  text-align: center;
+}
+.ListDeed{
+  background-image: linear-gradient(to right , #201e75,#14142b);
+  color: white;
+  outline: 2px solid white;
+  outline-offset: -.5rem;
+  padding: 1rem;
+}
+.udemy{
+  margin-bottom: -5rem;
+  
+}
+.LDLang{
+  text-align: right;
+}
+#body{
+  background-color:#f2f2f5;
 }
