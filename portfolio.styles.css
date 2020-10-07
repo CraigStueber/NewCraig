@@ -120,4 +120,86 @@
   border-radius: 10%;;
 }
 
+.rightDivPH{
+  background-color: transparent;
+  border-top: #fffc00 solid 2px;
+  border-left: #fffc00 solid 2px;
+}
+.leftDivPH{
+  background-color: transparent;
+  border-top: #fffc00 solid 2px;
+}
+.textPH{
+  position: relative;
+  margin-top: 15rem;
+  margin-left: 3rem;
+  margin-right: 5rem;
+  color: navy;
+}
+.PoconoHybrid{
+  background-image: radial-gradient(at bottom left, #fffc00, navy);
+  padding: 2rem;
+}
+.testTestPH{
+  text-align: center;
+}
+.testDivPH{
+  background-color: navy;
+  padding: 3rem;
+  margin-left: -6rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  color: #fffc00;
+}
+.rightDivBD{
+  background-color: transparent;
+  border-top: lightblue solid 2px;
+  border-left:lightblue solid 2px;
+}
+.leftDivBD{
+  background-color: transparent;
+  border-top: lightblue solid 2px;
+}
+.textBD{
+  position: relative;
+  color: lightblue;
+  margin-top: 15rem;
+  margin-left: 3rem;
+  margin-right: 5rem;
+}
+.BlueDoor{
+  background-image: radial-gradient(at bottom right, black, lightblue);
+  padding: 2rem;
+
+ 
+
+}
+.imgBD{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 90%;
+}
+.testDivBD{
+  background-color:lightblue;
+  padding: 3rem;
+  margin-left: -6rem;
+  margin-top: 1rem;
+ 
+  color:black;
+}
+.GameSec{
+  background-image: radial-gradient(at top left, #f0e6cc,#7d6113);
+}
+.Games{
+  border-left: black solid 2px;
+
+}
+.gamesHeader{
+
+}
+.gameGroup{
+  padding: 2rem;
+}
+
 
