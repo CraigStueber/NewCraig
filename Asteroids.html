@@ -5,22 +5,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Asteroids</title>
-    <style>.button{
-	width: 40%;
-	margin-left: 30%;
-	margin-right: 30%;
-	border: none;
-	background-color: rgb(1,13,82);
-	color: rgb(152,161,212) ;
-	height: 40px;
-	border-radius: 8px;
-	margin-bottom: 50px;
-}</style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="portfolio.styles.css" >
+
+<script src="home.js"></script>
 </head>
 
 <body>
-    <canvas id="gameCanvas" width="760" height="570"></canvas>
-    <a href="http://craigstueber.com"><button class="button">Click to return</button></a>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="home.html">Home</a>
+        <a href="Aboutme.html">About</a>
+        <a href="Resume.html">Education and Experience</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="Blog.html">Blog</a>
+        
+      </div>
+      <span class="menu" onclick="openNav()"><button class="button"> &#9776; Menu  </button></span><br/>
+    <canvas class="m-2" id="gameCanvas" width="760" height="570"></canvas>
+   
     <script>
         const FPS = 30; // frames per second
         const FRICTION = 0.7; // friction coefficient of space (0 = no friction, 1 = lots of friction)

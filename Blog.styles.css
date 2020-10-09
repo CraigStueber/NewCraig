@@ -55,5 +55,20 @@
       left: 0;
       cursor: pointer;
   }
+  img{
+    max-width: 100%;
+  }
+.Blog{
+  border-bottom: black solid 2px;
+  margin-bottom:  5rem;
+  margin-top: 5rem;
+}
+.blogPageHeader{
+  border-bottom: black solid 3px;
+  width: 100%;
 
-  
+}
+.PostTitle{
+  border-bottom: black solid 2px;
+  width: 50%;
+}

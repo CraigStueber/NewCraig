@@ -78,6 +78,14 @@
    margin-top: 2rem;
     
   }
+  .imgPH{
+    position: relative;
+   
+  
+    height: 20rem;
+   margin-top: 2rem;
+    
+  }
   .rightDivTK{
     background-color: transparent;
     border-left:white solid 2px;
@@ -190,24 +198,36 @@
 }
 .GameSec{
   background-image: radial-gradient(at top left, #f0e6cc,#7d6113);
+  
 }
 .Games{
+  position: relative;
   border-left: black solid 2px;
-
 }
+
 .gamesHeader{
+  text-align: right;
 
 }
 .gameGroup{
-  padding: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  position: relative;
 }
 .quote{
+  position: relative;
   width: 50%;
   margin-left: 40%;
   background-color: lightslategrey;
   padding: 4rem;
   color: white;
   font-weight: 500;
+
+}
+
+.GameImg{
+  height: 20vh;
 }
 
 

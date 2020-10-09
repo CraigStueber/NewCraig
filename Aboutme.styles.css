@@ -104,3 +104,10 @@
 body{
   background-color:#f2f2f5;
 }
+img{
+  max-width: 100%;
+}
+.Footer{
+  background-color: wheat;
+  width: 100%;
+}
