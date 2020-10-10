@@ -1,69 +1,13 @@
-.sidenav {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    left: 0;
-    background-color: #111; /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-  }
-  
-  /* The navigation menu links */
-  .sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-  }
-  
-  /* When you mouse over the navigation links, change their color */
-  .sidenav a:hover {
-    color: #f1f1f1;
-  }
-  
-  /* Position and style the close button (top right corner) */
-  .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-  }
-  
-  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-  #main {
-    transition: margin-left .5s;
-    padding: 20px;
-    height: 100vh;
-  }
-  
-  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
 
- 
-  .menu{
-      position: relative;
-      top: 0;
-      left: 0;
-      cursor: pointer;
-  }
-  .button{
-    border: none;
-    background-color: transparent;
-    width: 10vw;
-  }
-  .button:hover{
-    background-color: black;
-    color: white;
-  }
+.button{
+  border: none;
+  background-color: transparent;
+  width: 10vw;
+}
+.button:hover{
+  background-color: black;
+  color: white;
+}
   body{
     background-color:#f2f2f5;
   }
@@ -197,12 +141,30 @@
   color:black;
 }
 .GameSec{
-  background-image: radial-gradient(at top left, #f0e6cc,#7d6113);
+ 
+  padding-bottom: 2rem;
+  margin-top: 2rem;
+  color: white;
   
+}
+.firstOne{
+  background-image: radial-gradient(at top left, Blue, black);
+  padding: 1rem;
+  font-weight: 500;
+}
+.firstTwo{
+  background-image: radial-gradient(at top left, white, black);
+  color: black;
+  font-weight: 500;
+}
+.firstThree{
+  background-image: radial-gradient(at top left, yellow, black);
+  color: navy;
+  font-weight: 500;
 }
 .Games{
   position: relative;
-  border-left: black solid 2px;
+  border:  solid #f2f2f5 4px;
 }
 
 .gamesHeader{
@@ -214,20 +176,41 @@
   padding-right: 2rem;
   padding-top: 2rem;
   position: relative;
+  
 }
 .quote{
   position: relative;
   width: 50%;
   margin-left: 40%;
-  background-color: lightslategrey;
+  background-color: teal;
   padding: 4rem;
   color: white;
   font-weight: 500;
+  outline: 2px solid white;
+  outline-offset: -.5rem;
 
 }
 
 .GameImg{
   height: 20vh;
 }
+body{
+  font-family: 'Questrial', sans-serif;
+}
 
 
+.box-quote{
+  margin: 1rem;
+}
+.port{
+  font-family: 'Merriweather', serif;
+  font-weight: 500;
+  font-size: 3rem
+}
+.freelanceStuff{
+  margin-bottom: 5rem;
+}
+.FreeSec{
+  margin-bottom: .5rem;
+  margin-top: .5rem;
+}

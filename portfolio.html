@@ -4,6 +4,10 @@
             <title>Craig Stueber</title>
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
             <link rel="stylesheet" href="portfolio.styles.css" >
+            <link rel="stylesheet" href="global.css">
+            <link rel="stylesheet" href="headerFooter.styles.css" >
+            <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Questrial&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
             <script src="home.js"></script>
         </head>
         <body>
@@ -16,13 +20,14 @@
                 <a href="Blog.html">Blog</a>
                 
               </div>
-              <span class="menu" onclick="openNav()"><button class="button"> &#9776; Menu  </button></span>
-            <div class="container-fluid">
+            
+              <span class="menu" onclick="openNav()"><button id="button"> &#9776; Menu  </button></span>
+            <div class="container">
                
-                <h1>Portfolio</h1>
-                <section class="container">
-                    <h2>Freelance</h2>
-                    <div class="TuesKnights">
+                <h1 class="text-center port">Portfolio</h1>
+                <section class="freelanceStuff">
+                    
+                    <div class="TuesKnights FreeSec">
                         <div class="row twoDivs">
                             <div class="leftDivTK col-md-6">
                                 <div class="textTK">
@@ -43,7 +48,7 @@
                         
                     </div>
 
-                    <div class="BlueDoor">
+                    <div class="BlueDoor FreeSec">
                         <div class="row twoDivs">
                             <div class="leftDivBD col-md-6">
                                 <img class="imgBD " src="assets/bluedoor.png" />
@@ -55,8 +60,8 @@
                                     <p>Made a website for my toughest critic my lovely wife, selling her wonderful art. Platform used Shopify. Languages Liquid. Site will be live end of October 2020</p>
                                     <button class="button freeBTN">Check it out</button>
                                 </div>
-                                <div class="testDivBD">
-                                    <p class="textTestBD">"I hired Craig to create a gallery webpage for my artwork. He responded promptly to all requests and came up with some great design ideas to really showcase my work. I enjoyed working with him and would highly recommend him for any project!!"</p>
+                                <div class="testDivBD text-center">
+                                    <p class="textTestBD text-center">"I hired Craig to create a gallery webpage for my artwork. He responded promptly to all requests and came up with some great design ideas to really showcase my work. I enjoyed working with him and would highly recommend him for any project!!"</p>
                                     <h6 class="test-center">Megan S.</h6>
                                 </div>
 
@@ -66,7 +71,7 @@
                     </div>
 
 
-                    <div class="PoconoHybrid">
+                    <div class="PoconoHybrid FreeSec">
                         <div class="row twoDivs">
                         <div class="leftDivPH col-md-6">
                             <div class="textPH">
@@ -87,13 +92,14 @@
                     </div>
                 </div>
                 </section>
-                <h2>Projects</h2>
+            </div>
+            <h3 class="text-center port">Lets Play Some Games</h3>
                 <section class="container-fluid GameSec">
                     
                     <div >
-                        <h3 class="gamesHeader">Lets Play Some Games</h3>
+                        
                         <div class="row gameGroup">
-                            <div class="Games firstTwo col-md-4">
+                            <div class="Games firstOne col-md-4">
                                 <h2>Yahtzee</h2>
                                 <img class="GameImg"  src="assets/dice.png" />
                                 <p>I am going to write something here that describes how making the game helped me learn React. And makes me sound smart. I like to watch Television while I am working it keeps me focused.</p>
@@ -118,7 +124,7 @@
                                 </ul>
                                 <a href="Asteroids.html"><button class="button freeBTN">Click To Play</button></a>
                             </div>
-                            <div class="Games col-md-4">
+                            <div class="Games firstThree col-md-4">
                                 <h2>Color Game</h2>
                                 <img class="GameImg" src="assets/rgb1.png" />
                                 <p>I am going to write something here that describes how making the game helped me learn React. And makes me sound smart. I like to watch Television while I am working it keeps me focused.</p>
@@ -132,9 +138,7 @@
                             </div>
                       
                         </div>
-                        <div>
-                            <P class="quote">“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.” — Martin Fowler</P>
-                        </div>
+                      
                     </div>
                 </section>
           

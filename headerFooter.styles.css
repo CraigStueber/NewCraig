@@ -1,3 +1,5 @@
+
+/*Header*/
 .sidenav {
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
@@ -47,52 +49,43 @@
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
-
- 
   .menu{
-      position: relative;
-      top: 0;
-      left: 0;
-      cursor: pointer;
-  }
-
-  .Highlight{
-      border-left: black 5px solid ;
-      background-color: lightblue;
-    
-    
-  }
-  
-
-
-  .Contact{
-      text-align: center;
-      line-height: 0;
-
-  }
-
-.aboutMeHeader{
-    text-align: center;
-    padding-top: 5rem;
-
+    position: relative;
+    top: 0;
+    left: 0;
+    cursor: pointer;
 }
-.sections{
-    margin-bottom: 5vh;
-}
-.Me{
-    height: 50vh;
-    float: left;
+#button{
+    border: none;
+    background-color: transparent;
+    width: 10vw;
+  }
+  #button:hover{
+    background-color: black;
+    color: white;
+  }
+/*Footer */ 
+
+  .Footer{
+    background-color:slategray;
+    width: 100%;
+    margin-top: 5rem;
+    color: white;
+  }
+  .socialLinks{
+      
+      height: 5rem;
+      padding: 1rem;
+  }
+  .Contact-Info{
+   
+    line-height: 0;
     padding: 1rem;
-}
-.family{
-    float: right;
-    height: 50vh;
-    padding: 1rem;
-}
+  }
+  .center {
+    margin: auto;
+    width: 60%;
+ 
+    padding: 10px;
+  }
 
-body{
-  background-color:#f2f2f5;
-}
-img{
-  max-width: 100%;
-}
