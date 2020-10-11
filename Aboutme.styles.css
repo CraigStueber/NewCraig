@@ -59,6 +59,8 @@
   .Highlight{
       border-left: black 5px solid ;
       background-color: lightblue;
+      padding-left: 1rem;
+  
     
     
   }
@@ -82,7 +84,8 @@
 .Me{
     height: 50vh;
     float: left;
-    padding: 1rem;
+    padding-right: 1rem;
+    
 }
 .family{
     float: right;

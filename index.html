@@ -6,6 +6,11 @@
             <link rel="stylesheet" href="global.css">
             <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
             <link rel="stylesheet" href="index.styles.css" >
+            <script>
+                    window.addEventListener('scroll', () => {
+  document.body.style.setProperty('--scroll',window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
+}, false);
+            </script>
            
         </head>
         <body>
@@ -13,11 +18,22 @@
            <video autoplay muted loop id="myVideo">
                <source src="assets/videob.mp4" type="video/mp4" >
            </video>
+           <div class="progress"></div>
+
+           <div class="cube-wrap">
+             <div class="cube">
+               <div class="side top"><img class="logo" src="assets/logo.jpg" /></div>
+               <div class="side bottom"><img class="logo"  src="assets/logo.jpg" /></div>
+               <div class="side front"><img  class="logo"  src="assets/logo.jpg" /></div>
+               <div class="side back"><img class="logo"  src="assets/logo.jpg" /></div>
+               <div class="side left"><img class="logo"  src="assets/logo.jpg" /></div>
+               <div class="side right"><img class="logo"  src="assets/logo.jpg" /></div>
+             </div>
+           </div>
           
-           <img class="logo" src="assets/logo.jpg" />
            <div class="content">
-            <h1>Craig Stueber</h1>
-            <p>I've been an artist all my life and finally found my medium in coding. Having Degrees in both illustration at VCU & software engineering at Strayer, I have brought both passions together.</p>
+            <h1>Welcome! My name is Craig Stueber</h1>
+            <p>I've been an artist all my life and finally found my medium in coding. </p>
             <a href="home.html"><button id="myBtn">Home Page</button></a>
           </div>
             

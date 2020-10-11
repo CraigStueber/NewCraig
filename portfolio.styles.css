@@ -1,8 +1,7 @@
 
 .button{
   border: none;
-  background-color: transparent;
-  width: 10vw;
+
 }
 .button:hover{
   background-color: black;
@@ -213,4 +212,7 @@ body{
 .FreeSec{
   margin-bottom: .5rem;
   margin-top: .5rem;
+}
+.gameBtn{
+  margin-bottom: 2rem;
 }

@@ -67,10 +67,15 @@
 /*Footer */ 
 
   .Footer{
-    background-color:slategray;
+    background-color: #111;
     width: 100%;
     margin-top: 5rem;
     color: white;
+    font-size: small;
+  }
+  h3{
+    font-size: medium;
+    text-decoration: underline;
   }
   .socialLinks{
       
@@ -87,5 +92,11 @@
     width: 60%;
  
     padding: 10px;
+  }
+  .github{
+    float: left;
+  }
+  .linkedin{
+    float: right;
   }
 
