@@ -1,187 +1,109 @@
-
-  .strSec{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    background-color: white;
-  }
- 
-  
-  img{
-      max-width: 100%;
-  }
-.Header{
-    border-bottom: black solid 4px;
-    width: 75%;
+.strSec {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: white;
 }
-.contract{
-    border: black solid 1px;
-    margin: 1rem;
+.black {
+  color: black;
 }
-.testimg{
-    display: block;
-    height: 10rem;
-    margin-right: auto;
-    margin-left: auto;
-
+img {
+  max-width: 100%;
 }
-.bec{
-    display: block;
-    height: 20rem;
-    margin-right: auto;
-    margin-left: auto;
+.Header {
+  border-bottom: #66fcf1 solid 4px;
+  width: 75%;
 }
-.college{
-    height: 25rem;
-
+.contract {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  outline: 2px solid #66fcf1;
+  outline-offset: -0.5rem;
+  padding: 1rem;
 }
-.strayerDeg{
-    text-align: right;
-    padding-top: 2rem;
+.testimg {
+  display: block;
+  height: 10rem;
+  margin-right: auto;
+  margin-left: auto;
 }
-.vcuDeg{
-    padding-top: 2rem;
+.bec {
+  display: block;
+  height: 20rem;
+  margin-right: auto;
+  margin-left: auto;
 }
-.testLogo{
+.college {
+  height: 25rem;
+}
+.strayerDeg {
+  text-align: right;
+  padding-top: 2rem;
+}
+.vcuDeg {
+  padding-top: 2rem;
+}
+.testLogo {
   display: block;
   margin-left: auto;
   margin-right: auto;
   height: 6rem;
 }
-.testSec{
+.testSec {
   position: relative;
-  background-color: black;
   color: white;
   padding: 5rem;
-
 }
-.onlineCourses{
-  background-image: linear-gradient(to bottom right, rgb(3,203,226), black );
+.onlineCourses {
+  background-image: linear-gradient(to bottom, rgb(3, 203, 226), black);
   color: white;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
-  padding-top: -2rem;
- 
-  
-
 }
 
-.skillsOdd{
-  padding: 3rem;
-  text-align: center;
-color: lightblue;
-background-image: linear-gradient(to bottom ,black , navy );
-
-outline: 2px solid lightblue;
-outline-offset: -.5rem;
-
-
-}
-
-
-
-.skillsEven{
-  padding: 3rem;
-  text-align: center;
-  color: black;
-  background-image: linear-gradient(to top , lightblue, white);
-  
-  outline: 2px solid black;
-outline-offset: -.5rem;
-
-}
-
-
-.Stcollege{
+.Stcollege {
   width: 100%;
 }
-.vcuSec{
+.vcuSec {
   position: relative;
-  background-color: rgb(252,185,19);
+  background-color: rgb(252, 185, 19);
   z-index: -1;
-  
+  color: black;
 }
-.exHeading{
+
+.exHeading {
   text-align: center;
   text-decoration: underline;
- 
 }
-.freelance{
-  background-color: lightblue;
+.freelance {
   padding: 3rem;
-  border: black solid 2px;
+  border: #66fcf1 solid 2px;
   border-radius: 1%;
   text-align: center;
+  height: 100%;
 }
-#vcu{
-  z-index: -1;
-}
-.skills{
-  background-color: lightskyblue;
-  position: relative;
- 
-  padding-top: 3rem;
-  padding-bottom: 2rem;
-}
-.Kurb{
-  background-image: linear-gradient(to left , rgb(41,40,42),black); 
-  color:rgb(206,230,190);
-  padding: 1rem;
-  outline: 2px solid rgb(206,230,190);
-  outline-offset: -.5rem;
-}
-ul{
+
+ul {
   list-style-type: none;
   text-align: center;
   padding: 0;
-  
 }
-.contractHeading{
+.contractHeading {
   text-align: center;
 }
-.ListDeed{
-  background-image: linear-gradient(to right , #201e75,#14142b);
-  color: white;
-  outline: 2px solid white;
-  outline-offset: -.5rem;
-  padding: 1rem;
-}
-.udemy{
-  margin-bottom: -5rem;
-  
-}
-.LDLang{
+
+.LDLang {
   text-align: right;
 }
-#body{
-  background-color:#f2f2f5;
-}
-#button{
+
+#button {
   border: none;
   background-color: transparent;
   width: 10vw;
 }
-#button:hover{
+#button:hover {
   background-color: black;
   color: white;
 }
-body{
+body {
   font-family: 'Roboto', sans-serif;
- 
-}
-h1{
-  font-family: 'Merriweather', serif;
-}
-h2{
-  font-family: 'Merriweather', serif;
-}
-h3{
-
-    font-family: 'Merriweather', serif;
- 
-}
-.TopHeader{
-  font-weight: 900;
 }

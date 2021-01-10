@@ -1,24 +1,19 @@
-
-  img{
-    max-width: 100%;
-  }
-.Blog{
-  border-bottom: black solid 2px;
-  margin-bottom:  5rem;
+img {
+  max-width: 100%;
+}
+.Blog {
+  border-bottom: #66fcf1 solid 2px;
+  margin-bottom: 5rem;
   margin-top: 5rem;
 }
-.blogPageHeader{
-  border-bottom: black solid 3px;
+.blogPageHeader {
+  border-bottom: #66fcf1 solid 3px;
   width: 100%;
-
 }
-.PostTitle{
-  border-bottom: black solid 2px;
+.PostTitle {
+  border-bottom: #66fcf1 solid 2px;
   width: 50%;
 }
-body{
-  background-color:#f2f2f5;
-}
-.BlogImage{
+.BlogImage {
   padding-bottom: 2rem;
 }
