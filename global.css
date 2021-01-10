@@ -26,3 +26,15 @@ h5 {
   background-color: #1f2833;
   padding: 2rem;
 }
+.button {
+  background-color: transparent;
+  border: solid #45a29e 1px;
+  color: #45a29e;
+  width: 30vw;
+  border-radius: 5px;
+}
+.button:hover {
+  background-color: #45a29e;
+  border: solid #0b0c10 1px;
+  color: #0b0c10;
+}
