@@ -1,8 +1,4 @@
-.quote {
-  position: relative;
-  background-color: rgb(181, 231, 232);
-  height: 100%;
-}
+
 
 .portBanner {
   background-image: url('assets/portBanner.jpg');
@@ -12,8 +8,4 @@
 .body {
   background-color: rgb(229, 249, 250);
 }
-.btn-round {
-  border-radius: 10rem;
-  padding-left: 4rem;
-  padding-right: 4rem;
-}
+
