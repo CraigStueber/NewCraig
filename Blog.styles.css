@@ -2,16 +2,16 @@ img {
   max-width: 100%;
 }
 .Blog {
-  border-bottom: #66fcf1 solid 2px;
+  border-bottom: rgb(50, 70, 81) solid 2px;
   margin-bottom: 5rem;
   margin-top: 5rem;
 }
 .blogPageHeader {
-  border-bottom: #66fcf1 solid 3px;
+  border-bottom: rgb(50, 70, 81) solid 3px;
   width: 100%;
 }
 .PostTitle {
-  border-bottom: #66fcf1 solid 2px;
+  border-bottom: rgb(50, 70, 81) solid 2px;
   width: 50%;
 }
 .BlogImage {

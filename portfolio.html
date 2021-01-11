@@ -4,15 +4,17 @@
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <title>Craig Stueber</title>
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-            <link rel="stylesheet" href="portfolio.styles.css" >
             <link rel="stylesheet" href="global.css">
             <link rel="stylesheet" href="headerFooter.styles.css" >
+            <link rel="stylesheet" href="portfolio.styles.css" >
+          
+            
             <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Questrial&display=swap" rel="stylesheet">
             <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
             <script src="home.js"></script>
          
         </head>
-        <body>
+        <body class="body">
             <div id="mySidenav" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <a href="home.html">Home</a>
@@ -24,10 +26,10 @@
               </div>
             
              
-            <div class="container-fluid TopHeader">
-                <span class="menu fixed-top" onclick="openNav()"><button id="button"> &#9776; Menu  </button></span>
+            <div class="container-fluid TopHeader portBanner">
+                <span class="menu" onclick="openNav()"><button id="button"> <h2> &#9776; Menu  </h2> </button></span>
                
-                <h1 class="text-center port">Portfolio</h1>
+                <h1 class="text-center port display-1 font-weight-bold">Portfolio</h1>
             </div>
             <div class="container my-2">
                 <div class="row">
@@ -35,9 +37,9 @@
                         <div class="quote d-flex align-itmes-center flex-column p-4">
                             <h1>Foundry VTT</h1>
                             <p>Redesigned and built the Cyberpunk Code Red UI for the Virtual Table Top Platform.</p>
-                            <img src="assets/Cyberpunk-Red-logo.jpg" alt="cyberpunk logo">
-                            <div class="mt-auto p-4 text-center">
-                                <a href="https://foundryvtt.com/"><button class="button">Click</button></a>
+                            <img class="my-auto" src="assets/Cyberpunk-Red-logo.jpg" alt="cyberpunk logo">
+                            <div class="my-auto text-center">
+                                <a href="https://foundryvtt.com/"><button class="btn btn-sm btn-info btn-round">Click</button></a>
                             </div>
                             
                         </div>
@@ -49,33 +51,24 @@
                             <p>Developed product pages using brand guidelines
                                 Organized Webinars using Custom Fields
                                 Restructured site to be more responsive for mobile devices</p>
-                            <img src="assets/PLLogo.png" alt="level up realty logo">
+                            <img class="my-auto" src="assets/PLLogo.png" alt="level up realty logo">
                             <div class="mt-auto p-4 text-center">
-                                <a href="https://www.presencelearning.com/"><button class="button">Click</button></a>
+                                <a href="https://www.presencelearning.com/"><button class="btn btn-sm btn-info btn-round">Click</button></a>
                             </div>
                         </div>
                         
                         
                     </div>
-                    <div class="col-md-6 my-1">
-                        <div class="quote d-flex align-itmes-center flex-column p-4">
-                            <h1>7 Mondays Properties</h1>
-                            <p>A small property investment company based out of Altanta. Given very little instruction and content, built a web site from the ground up.</p>
-                            <img src="assets/7-mondays-properties-transparent.png" alt="mondays logo">
-                            <div class="mt-auto p-4 text-center">
-                                <a href="http://7mondaysproperties.com/"><button class="button">Click</button></a>
-                            </div>
-                        </div>
-                    </div>
+                  
                         
                     
                     <div class="col-md-6 my-1">
                         <div class="quote d-flex align-itmes-center flex-column p-4">
                             <h1>Change In Uzbekistan</h1>
                             <p>Working from a PDF mock up, created the Uzbekistan Government a US facing site to help build their growing economy.</p>
-                            <img src="assets/Emblem_of_Uzbekistan-01.png" alt="Uzbekistan Emblem">
+                            <img  class="my-auto" src="assets/Emblem_of_Uzbekistan-01.png" alt="Uzbekistan Emblem">
                             <div class="mt-auto p-4 text-center">
-                                <a href="https://changeinuzbekistan.com/"><button class="button">Click</button></a>
+                                <a href="https://changeinuzbekistan.com/"><button class="btn btn-sm btn-info btn-round">Click</button></a>
                             </div>
                         </div>
                         
@@ -85,9 +78,9 @@
                         <div class="quote d-flex align-itmes-center flex-column p-4">
                             <h1>Blue Door Gallery</h1>
                             <p>A local artist in Richmond VA an on going contract to give her the website she always wanted.</p>
-                            <img src="assets/bluedoor.png" alt="bluedoor">
+                            <img class="my-auto door" src="assets/bluedoor.png" alt="bluedoor">
                             <div class="mt-auto p-4 text-center">
-                                <a href="http://bluedoorartgallery.com/"><button class="button">Click</button></a>
+                                <a href="http://bluedoorartgallery.com/"><button class="btn btn-sm btn-info btn-round">Click</button></a>
                             </div>
                         </div>
 
@@ -98,9 +91,19 @@
                         <div class="quote d-flex align-itmes-center flex-column p-4">
                             <h1>Pocono Hybrid</h1>
                             <p>A custom made website, using a clients design to bring this local author's dream website come to life.</p>
-                            <img src="assets/PH_Logo_72dpi.png" alt="PH logo">
+                            <img class="my-auto" src="assets/PH_Logo_72dpi.png" alt="PH logo">
                             <div class="mt-auto p-4 text-center">
-                                <a href="http://www.poconohybrid.com/"><button class="button">Click</button></a>
+                                <a href="http://www.poconohybrid.com/"><button class="btn btn-sm btn-info btn-round">Click</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 my-1">
+                        <div class="quote d-flex align-itmes-center flex-column p-4">
+                            <h1>7 Mondays Properties</h1>
+                            <p>A small property investment company based out of Altanta. Given very little instruction and content, built a web site from the ground up.</p>
+                            <img class="my-auto" src="assets/7-mondays-properties-transparent.png" alt="mondays logo">
+                            <div class="mt-auto p-4 text-center">
+                                <a href="http://7mondaysproperties.com/"><button class="btn btn-sm btn-info btn-round">Click</button></a>
                             </div>
                         </div>
                     </div>
@@ -126,20 +129,20 @@
                         <div class="col-md-4 my-1">
                             <div class="quote d-flex align-itmes-center flex-column p-4">
                                 <h3 class="pt-4">"It was nice and very easy to work with Craig! He is very responsive and professional. Also the job was finished in time which is great!"</h3>
-                                <p class="name mt-auto">Bekzat Baylarbekov <br> CEO of 7Mondays Properties</p>
+                                <p class="name mt-auto text-center">Bekzat Baylarbekov <br> CEO of 7Mondays Properties</p>
                             </div>
                         </div>
                         <div class="col-md-4 my-1">
                             <div class="quote d-flex align-itmes-center flex-column p-4">
                                 <h3 class="pt-4">"Craig, is a great person to work with. He has the skills to get the job done and very pleasant to work with. I'd highly recommend."</h3>
-                                <p class="name mt-auto">Victor McCoy Veye Marketing</p>
+                                <p class="name mt-auto text-center">Victor McCoy <br> Veye Marketing</p>
                             </div>
 
                         </div>
                         <div class="col-md-4 my-1">
                             <div class="quote d-flex align-itmes-center flex-column p-4">
                                <h3 class="pt-4">"Craig was fantastic to work with. His communication skills were awesome, he kept me in the loop the entire time. He took time to listen to me and give me what I wanted with no hassle or fuss. You will not be disappointed if you hire Craig. I HIGHLY recommend it."</h3>
-                               <p class="name mt-auto">E.J. Dales</p>
+                               <p class="name mt-auto text-center">E.J. Dales</p>
                             </div>
 
                         </div>
@@ -159,7 +162,7 @@
                                     <input type="text" name="phonenumber" class="form-control mb-2" placeholder="Phone Number" required>
                                     <input type="email" name="email" class="form-control mb-2" placeholder="Email" required>
                                     <textarea name="message" class="form-control" rows="4" placeholder="Message..."></textarea>
-                                    <input type="submit" class="form-submit button mt-2">
+                                    <input type="submit" class="form-submit btn btn-sm btn-info btn-round mt-2">
                         
                                 </form>
                             </div>
@@ -174,7 +177,7 @@
                              <div class="Contact-Info text-center">
                                  <a href="https://github.com/CraigStueber"><img class="socialLinks github" src="assets/github.png" alt="github" /></a>
                                  <a href="https://www.linkedin.com/in/craigstueber/"><img class="socialLinks linkedin" src="assets/linkedin.png" /></a>
-                                 <h3 class="text-center">Contact Info</h3>
+                                 <h3 class="text-center" id="white">Contact Info</h3>
                                  <p>804 519 3626</p>
                                  <p>me@craigstueber.com</p>
                                  

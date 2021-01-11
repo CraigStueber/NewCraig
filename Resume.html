@@ -8,11 +8,12 @@
             <link rel="stylesheet" href="global.css">
             <link rel="stylesheet" href="headerFooter.styles.css" >
             <link rel="stylesheet" href="Resume.styles.css" >
+
             <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto&display=swap" rel="stylesheet">
             <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
             <script src="home.js"></script>
         </head>
-        <body id="body">
+        <body class="body">
             <div id="mySidenav" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <a href="home.html">Home</a>
@@ -24,11 +25,11 @@
               </div>
             
              
-                <div class="container-fluid TopHeader">
-                    <span class="menu" onclick="openNav()"><button id="button"> &#9776; Menu  </button></span>
-                <div class="text-center">
-                    <h1>Craig's</h1>
-                    <h1>Education & Experience</h1>
+                <div class="container-fluid TopHeader  portBanner">
+                    <span class="menu" onclick="openNav()"><button id="button"> <h2 id="black"> &#9776; Menu  </h2> </button></span>
+                <div class="text-center ">
+                    <h1 class="display-1 font-weight-bold black">Craig's</h1>
+                    <h1 class="black">Education & Experience</h1>
                 </div>
             </div>
                 <section>
@@ -38,12 +39,19 @@
                  
                         <h2 class="exHeading">Contract</h2>
                         <div class="row">
-                        <div class="contract PresenceLearning">
+                        <div class="contract quote">
                             <div class="contractHeading">
                                 <h2 class="PLHeading">Presence Learning</h2>
-                                <h4>Front-End Wordpress Software Engineer</h4>
+                                <h4>Front-End Software Engineer</h4>
                             </div>  
                             <div class="row">
+                                <div class="col-md-6">
+                                    <h5>Languages</h5>
+                                    <p>HTML5 |  Bootstrap | CSS | PHP | JavaScript</p>
+                                    <h5>Platforms</h5>
+                                    <p>WordPress | GitHub | Slack | Foundation for Emails | Marketo </p>
+                                 
+                                </div>
                                 <div class="col-md-6">
                                     <p>Leading provider of live online special education related services for K12. Speech-language therapy, occupational therapy, behavior & mental health services</p>
                                     <ul class="text-left">
@@ -52,16 +60,10 @@
                                         <li>Restructured site to be more responsive for mobile devices</li>
                                     </ul>
                                 </div>
-                            <div class="col-md-6">
-                                <h5>Languages</h5>
-                                <p>HTML5 |  Bootstrap | CSS | PHP | JavaScript</p>
-                                <h5>Platforms</h5>
-                                <p>WordPress | GitHub | Slack | Foundation for Emails | Marketo </p>
-                             
-                            </div>
+                           
                         </div>
                     </div>
-                        <div class="contract Kurb">
+                        <div class="contract quote">
                             <div class="contractHeading">
                                 <h2>Kurb Media</h2>
                                 <h4>Front-End Software Engineer</h4>
@@ -81,32 +83,32 @@
                             </div>
                         </div>
                     </div>
-                    <div class="contract ListDeed">
+                    <div class="contract quote">
                         <div class="contractHeading">
                             <h2>List Deed</h2>
                             <h4>Lead Front-End Software Engineer and Web Designer</h4>
                         </div>
                         <div class="row">
                             <div class="col-md-6">
+                                <h5>Languages</h5>
+                                <p>Vue.js |  Hapi | HTML5 | SCSS | mongoDB </p>
+                                <h5>Platforms</h5>
+                                <p>GitHub | Microsoft Teams | Clickup </p>
+                            </div>
+                            <div class="col-md-6">
                                 <p>Worked directly with the CEO to create a new platform from the ground up that will change the way Realtors buy property in Florida. Led meetings on UI design and functionality to shape the design of the application.</p>
                         </div>
-                        <div class="col-md-6 LDLang">
-                            <h5>Languages</h5>
-                            <p>Vue.js |  Hapi | HTML5 | SCSS | mongoDB </p>
-                            <h5>Platforms</h5>
-                            <p>GitHub | Microsoft Teams | Clickup </p>
-                        </div>
+                      
                         </div></div>
-                    </div>
-                    <div>
-                        </div>
+                    </div></div>
+                    <div class="container-fluid">
               
                         <h2 class="exHeading" >Freelance</h2>
                     <div>
                         
                         <div class="row">
                         <div class="col-md-4 p-2">
-                            <div class="freelance">
+                            <div class="freelance quote">
                                 <h3>Pocono Hybrid</h3>
                                 <p>
                                     Created an author's website for the launch of a new book series using his artwork and theme. The author was so impressed he asked me to stay on a long term contract to update the site as needed.
@@ -117,7 +119,7 @@
                             
                         </div>
                         <div class="col-md-4 p-2">
-                            <div class="freelance">
+                            <div class="freelance quote">
                                 <h3>Blue Door Gallery</h3>
                                 <p>
                                     A portfolio and ecommerce website for a local artist.
@@ -128,7 +130,7 @@
                           
                         </div>
                         <div class="col-md-4 p-2">
-                            <div class="freelance">
+                            <div class="freelance quote">
                                 <h3>7 Mondays Property Investments</h3>
                                 <p>
                                     A small property investment company in Altanta. Given very little instruction and content, built a web site from the ground up. 
@@ -137,7 +139,7 @@
                            
                         </div>
                         <div class="col-md-4 p-2">
-                            <div class="freelance">
+                            <div class="freelance quote">
                                 <h3>Foundry VTT</h3>
                                 <p>
                                   Redesigned and built Cyberpunk Code Red UI for the Virtual Table Top platform.  
@@ -146,7 +148,7 @@
                            
                         </div>
                         <div class="col-md-4 p-2">
-                            <div class="freelance">
+                            <div class="freelance quote">
                                 <h3>Level Up Realty</h3>
                                 <p>
                                    Rebuilt and redesigned much of the site. As well as hooked up Google Calendars and Google Classrooms using Google's API's. 
@@ -155,7 +157,7 @@
                            
                         </div>
                         <div class="col-md-4 p-2">
-                            <div class="freelance">
+                            <div class="freelance quote">
                                 <h3>Tuesday Knights</h3>
                                 <p>
                                     A local D&D Club in Richmond, VA. Currently a static site using HTML, being updated to React.js should be live by mid-November.
@@ -164,10 +166,10 @@
                           
                         </div>
                     </div>
-                        <p class="text-center">Check out the <a href="portfolio.html">Porfolio Page</a> for more information.</p>
+                        <p class="text-center">Check out the <a class="btn btn-info btn-round" href="portfolio.html">Porfolio Page</a> for more information.</p>
                     </div>
                     </div>
-                    </div>
+                    </div></div>
                 </section>
                 <section>
                 
@@ -175,7 +177,8 @@
                    
                    <div class="container">
                        <div class="row">
-                           <div class="col-lg-4 col-md-2 col-12">
+                           <div class="col-lg-4 col-md-2 col-12 text-center my-1">
+                            <div class="quote p-4">
                             <h3>Language</h3>
                                <div >
                                    <ul>
@@ -188,9 +191,10 @@
                                        <li>C##</li>
                                    </ul>
 
-                               </div>
+                               </div></div>
                            </div>
-                           <div class="col-lg-4 col-md-2 col-12">
+                           <div class="col-lg-4 col-md-2 col-12 text-center my-1">
+                               <div class="quote p-4">
                             <h3>Framework</h3>
                             <div>
                                 <ul>
@@ -200,9 +204,10 @@
                                     <li>Next.js</li>
                                 </ul>
                                 
-                            </div>
+                            </div></div>
                         </div>
-                        <div class="col-lg-4 col-md-2 col-12">
+                        <div class="col-lg-4 col-md-2 col-12 text-center my-1">
+                            <div class="quote p-4">
                             <h3>Libraries</h3>
                             <div>
                                <ul>
@@ -212,9 +217,10 @@
                                 <li>jQuery</li>
                             </ul>
                                 
-                            </div>
+                            </div></div>
                         </div>
-                        <div class="col-lg-4 col-md-2 col-12">
+                        <div class="col-lg-4 col-md-2 col-12 text-center my-1">
+                            <div class="quote p-4">
                             <h3>Tools</h3>
                             <div>
                                 <ul>
@@ -225,9 +231,10 @@
                                     <li>Webflow</li>
                                 </ul>
                                 
-                            </div>
+                            </div></div>
                         </div>
-                        <div class="col-lg-4 col-md-2 col-12">
+                        <div class="col-lg-4 col-md-2 col-12 text-center my-1">
+                            <div class="quote p-4">
                             <h3>Platforms</h3>
                             <div>
                                 <ul>
@@ -236,9 +243,10 @@
                                     <li>WordPress</li>
                                     <li>Shopify</li>
                                 </ul>
-                            </div>
+                            </div></div>
                         </div>
-                        <div class="col-lg-4 col-md-2 col-12">
+                        <div class="col-lg-4 col-md-2 col-12 text-center my-1">
+                            <div class="quote p-4">
                             <h3>Storage</h3>
                             <div>
                                 <ul>
@@ -247,7 +255,7 @@
                                     <li>MongoDB</li>
                                 </ul>
                                 
-                            </div>
+                            </div></div>
                         </div>
                        </div>
                    </div>
@@ -307,24 +315,24 @@
                             
                             
                                 <div class="col-md-6"> 
-                                    <h4>The Complete Java Certification Course</h4>
+                                    <h4 class="green">The Complete Java Certification Course</h4>
                                         <p>Instructor: Imtiaz Ahmad</p>
                                         <p></p>
-                                    <h4>Real-World Projects with Java 11</h4>
+                                    <h4 class="green">Real-World Projects with Java 11</h4>
                                         <p>Instructor: Packt Publishing</p>
                                         <p></p>
-                                    <h4>Colt Steele's Web Developer</h4>
+                                    <h4 class="green">Colt Steele's Web Developer</h4>
                                         <p>Instructor: Colt Steele</p>
                                         <p></p>
                                 </div>
                                 <div class="col-md-6">
-                                    <h4>Stephen Grider's Modern JavaScript</h4>
+                                    <h4 class="green">Stephen Grider's Modern JavaScript</h4>
                                         <p>Instructor: Stephen Grider</p>
                                         <p></p>
-                                    <h4>Complete React Developer</h4>
+                                    <h4 class="green">Complete React Developer</h4>
                                         <p>Instructor: Andrei Neagoie</p>
                                         <p></p>
-                                    <h4>The Modern React BootCamp (Hooks, Context, NextJS, Router)</h4>
+                                    <h4 class="green">The Modern React BootCamp (Hooks, Context, NextJS, Router)</h4>
                                         <p>Instructor: Colt Steele</p>
                                         <p></p>
                                 
@@ -374,7 +382,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-3"></div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 quote">
                             <div class="form-container rounded p-4 text-center my-2">
                                 <h3>Want to work together?</h3>
                                 <h3>I would love to hear from you</h3>
@@ -384,7 +392,7 @@
                                     <input type="text" name="phonenumber" class="form-control mb-2" placeholder="Phone Number" required>
                                     <input type="email" name="email" class="form-control mb-2" placeholder="Email" required>
                                     <textarea name="message" class="form-control" rows="4" placeholder="Message..."></textarea>
-                                    <input type="submit" class="form-submit button mt-2">
+                                    <input type="submit" class="form-submit btn btn-sm btn-info btn-round mt-2">
                         
                                 </form>
                             </div>
@@ -400,7 +408,7 @@
                              <div class="Contact-Info text-center">
                                  <a href="https://github.com/CraigStueber"><img class="socialLinks github" src="assets/github.png" alt="github" /></a>
                                  <a href="https://www.linkedin.com/in/craigstueber/"><img class="socialLinks linkedin" src="assets/linkedin.png" /></a>
-                                 <h3 class="text-center">Contact Info</h3>
+                                 <h3 class="text-center" id="white">Contact Info</h3>
                                  <p>804 519 3626</p>
                                  <p>me@craigstueber.com</p>
                                  

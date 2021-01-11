@@ -62,10 +62,9 @@
   border: none;
   background-color: transparent;
   width: 10vw;
-  color: #66fcf1;
+  color: black;
 }
 #button:hover {
-  background-color: black;
   color: white;
 }
 /*Footer */

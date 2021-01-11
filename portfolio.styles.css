@@ -1,17 +1,19 @@
 .quote {
   position: relative;
-  background-color: #1f2833;
+  background-color: rgb(181, 231, 232);
   height: 100%;
 }
-.button {
-  background-color: transparent;
-  border: solid #45a29e 1px;
-  color: #45a29e;
-  width: 30vw;
-  border-radius: 5px;
+
+.portBanner {
+  background-image: url('assets/portBanner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.button:hover {
-  background-color: #45a29e;
-  border: solid #0b0c10 1px;
-  color: #0b0c10;
+.body {
+  background-color: rgb(229, 249, 250);
+}
+.btn-round {
+  border-radius: 10rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }

@@ -17,5 +17,3 @@ $headers = "From: " . $emailFrom;
 
 
 mail($to, $email_subject, $email_body, $headers);
-
-header("Location: https://craigstueber.com/portfolio.html?sent");
